@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: will
+  name: will-dep
   namespace: dev
   labels:
     app: will
@@ -9,11 +9,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: will
+      app: will-dep
   template:
     metadata:
       labels:
-        app: will
+        app: will-dep
     spec:
       containers:
         - name: playground
