@@ -8,6 +8,6 @@ spec:
     app: will-dep
   ports:
     - protocol: TCP
-      port: 80
+      port: 8888
       targetPort: 8888
   type: ClusterIP
