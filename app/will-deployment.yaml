@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: will-playground
+  name: will
   namespace: dev
   labels:
-    app: will-playground
+    app: will
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: will-playground
+      app: will
   template:
     metadata:
       labels:
-        app: will-playground
+        app: will
     spec:
       containers:
         - name: playground
