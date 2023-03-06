@@ -5,7 +5,7 @@ metadata:
   namespace: dev
 spec:
   selector:
-    app: will
+    app: will-dep
   ports:
     - protocol: TCP
       port: 80
